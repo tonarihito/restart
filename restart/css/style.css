@@ -1,0 +1,190 @@
+body{
+  font-family: YuGothic;
+  height: 100%;
+  max-width: 100%;
+}
+
+
+.head{
+  font-weight: bold;
+  padding: 0 0 0 15px;
+  margin:0 auto;
+  /* width: 460px; */
+}
+
+.contents-wrapper{
+  width: 460px;
+  max-width: 100%;
+  margin: 0 auto;
+  /* padding: 0 15px 0 15px; */
+
+}
+
+.left {
+color: #1F91BE;
+font-size: 18px;
+margin-top: 20px;
+}
+
+nav ul{
+display: flex;
+}
+
+nav li{
+  font-size: 14px;
+  /* width: 50px; */
+  /* height: 14px; */
+  font-weight: bold;
+  padding: 10px 12px 0 0;
+  margin-bottom: 20px;
+}
+
+nav a{
+  color: #333333;
+  text-decoration: none;
+  /* font-weight: bold; */
+}
+
+nav a:hover{
+  color: #1F91BE;}
+
+
+h1 {
+font-size: 22px;
+font-weight: bold;
+color: #1F91BE;
+border-bottom: 4px solid #1F91BE;
+width: 100%;
+margin-top: 40px;
+padding-bottom: 6px;
+}
+
+
+
+h2{
+font-size: 22px;
+font-weight: bold;
+color: #1F91BE;
+border-bottom: 4px solid #1F91BE;
+width: 100%;
+padding-bottom: 6px;
+margin-top:60px;
+margin-bottom: 20px;
+}
+
+/* top */
+.top{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* article-wrapper */
+
+.article-wrapper{
+    padding: 0 15px 0 15px;
+}
+
+img.about1{
+  margin-top: 20px;
+  width: 100%;
+}
+
+img.about2{
+  margin-top: 20px;
+  width: 100%;
+}
+
+p.tx{
+  margin-top: 20px;
+  margin-bottom: 40px;}
+
+
+/* news */
+
+.calender{
+border-bottom: 1px solid #6F6F6F;
+width: 100%;
+padding-bottom: 20px;
+}
+
+.day{
+flex-basis: 100px;
+font: Bold 14px YuGothic;
+letter-spacing: 0;
+color: #333333;
+margin: 20px 0 20px 0;
+}
+
+.newstxt{
+font-size: 14px;
+flex-basis:570px;
+}
+
+.btn{
+color: #1F91BE;
+width: 100px;
+line-height: 14px;
+font-size:13px;
+font-weight:bold;
+text-decoration:none;
+display:block;
+float: none;
+text-align:center;
+padding: 13px 9px 13px 9px;
+margin: 20px auto 60px auto;
+background-color:#FFFFFF;
+border:2px solid #1F91BE;
+}
+
+
+
+/* side-wrapper */
+
+.category{
+  padding: 0 15px 0 15px;
+  font-weight: bold;
+
+}
+
+.picture-area{
+  display: flex;
+}
+
+.picture-area {
+text-align: center;
+padding: 0 22px 0 22px;
+}
+
+img.imgside{
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+.category ul{
+  list-style:disc inside;
+}
+
+.category li{
+  padding-left: 2px;
+  margin-top: 13px;
+  font-size: 14px;
+}
+
+/* footer */
+
+footer{
+margin-top: 60px;
+width: 100%;
+height: 100%;
+background-color: #C7C7C7;
+}
+
+footer p {
+padding: 18px 0 18px 0;
+text-align: center;
+font: Bold 10px YuGothic;
+color: #FFFFFF;
+
+}
